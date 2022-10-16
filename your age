@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std; 
+
+int main() {
+long long int k;
+cin >> k;
+if((k % 10 == 1) && (k % 100 != 11)) cout << "Mne" << " " << k << " " << "god";
+else if(((k % 10 == 2) || (k % 10 == 3) || (k % 10 == 4)) && (k % 100 != 12) && (k % 100 != 13) && (k % 100 != 14)) cout << "Mne" << " " << k << " " <<  "goda";
+else cout << "Mne" << " " << k << " " << "let";
+}
