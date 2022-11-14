@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main() {
+int n,result = 0;
+cin >> n;
+  for(int i = (n*(n-1) + 1); i <= (n*(n-1) + 1) + ((n*2) -2) ; i += 2){
+    result += i; 
+  }
+  cout << result;
+}
