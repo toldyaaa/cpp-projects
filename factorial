@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+  int n,f=1;
+  cin >> n;
+  long long int p = 1;
+  while(p!=n){
+    f+=1;
+    p*=f;   
+  }
+  cout << f;
+    return 0;
+}
